@@ -1,0 +1,202 @@
+body {
+  margin: 0 1%;
+}
+
+container {
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1%;
+}
+
+.logo {
+  text-align: center;
+  margin-right: 160px;
+}
+
+.logo img {
+  width: 30%;
+  border-radius: 50%;
+  border: solid gray;
+}
+
+.header-left {
+  font-size: 40px;
+  font-family: "ephesis";
+  color: #24c016;
+  margin-left: 30px;
+}
+
+.header-right {
+  font-size: 40px;
+  font-family: "ephesis";
+  color: #24c016;
+  margin-right: 10%;
+}
+
+.menu {
+  background-color: #2aa721;
+  padding: 0.5px 0;
+}
+
+.menu>ul {
+  display: flex;
+  list-style: none;
+  margin-right: 10%;
+  justify-content: center;
+}
+
+.menu>ul>li>a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+
+}
+
+.menu>ul>li {
+  margin: 0 2%;
+
+}
+
+.banner {
+  width: 100%;
+  display: flex;
+}
+
+.banner-left {
+  width: 50%;
+}
+
+.banner-right {
+  width: 50%;
+}
+
+.product {
+  float: left;
+  margin: 1.5% 0;
+  width: 35%;
+}
+
+.product>img {
+  width: 99%;
+  height: 400px;
+}
+
+.content {
+  float: right;
+  width: 65%;
+}
+
+.content>h2,
+p,
+ul {
+  margin-left: 20px;
+}
+
+#pink-color {
+  color: rgb(225, 36, 193);
+}
+
+.content p {
+  font-size: 18px;
+}
+
+.content ul {
+  font-style: italic;
+}
+
+::marker {
+  color: gray;
+}
+
+.content li {
+  color: #0EC0C3;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+.footer {
+  color: white;
+  background-color: hsl(116, 67%, 39%);
+  text-align: center;
+  padding: 10px;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 2% 0;
+}
+
+.header-form {
+  background-color: #2aa721;
+  text-align: center;
+  color: white;
+  padding-bottom: 1%;
+}
+
+.header-form>h2 {
+  height: 10px;
+}
+
+.header-form>h3 {
+  height: 10px;
+}
+
+#content-form {
+  background-color: rgb(221, 220, 220);
+}
+
+.form-input {
+  margin-right: 5%;
+  width: 25%;
+}
+
+.form-output {
+  width: 25%;
+}
+
+.footer-form {
+  text-align: center;
+  padding: 5% 0;
+  font-size: 20px;
+  color: white;
+}
+
+.item {
+  display: flex;
+  font-size: 20px;
+  margin-bottom: 20px;
+  padding: 1%;
+}
+
+
+.name {
+  width: 100%;
+}
+
+.price {
+  color: orange;
+}
+
+.button-order {
+  background-color: orange;
+  color: white;
+  border-radius: 10%;
+  border: none;
+  padding: 3% 10%;
+  margin-left: 50%;
+}
+
+.list-choice {
+  font-size: 20px;
+  line-height: 2;
+  padding: 0 2%;
+  padding-bottom: 5%;
+}

@@ -1,0 +1,6 @@
+#F79646 : orange
+#0EC0C3 : ocean
+#06A2C8
+#3A7135 : green
+#06A2C8 : dark blue;
+#E7E3E4 : gray;

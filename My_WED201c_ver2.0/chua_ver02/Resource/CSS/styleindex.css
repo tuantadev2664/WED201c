@@ -1,0 +1,188 @@
+/* header*/
+
+body {
+  width: 100%;
+  margin: 0px;
+}
+
+.header {
+  margin-top: 10px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.logo {
+  width: 20%;
+}
+
+.logo img {
+  width: 30%;
+  margin-right: 35%;
+}
+
+.menu {
+  width: 60%;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+.menu li {
+  margin: 0 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #0EC0C3;
+  font-size: 20px;
+}
+
+.search {
+  width: 20%;
+  margin-left: 10%;
+}
+
+.search form {
+  display: flex;
+}
+
+.search input {
+  padding: 5px 0;
+  padding-right: 35px;
+  margin-right: 5px;
+}
+
+.search button {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border: none;
+}
+
+/* banner */
+
+.banner {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.banner img {
+  width: 45%;
+}
+
+/* content-detail */
+
+#blue-color {
+  margin: 2% 0;
+  color: #0EC0C3;
+  text-align: center;
+}
+
+#orange-color {
+  color: #F79646;
+  font-size: 23px;
+  margin: 0 15px;
+  font-style: italic;
+  text-align: justify;
+}
+
+/* footer */
+
+.footer {
+  background-color: #06A2C8;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1%;
+}
+
+.contact {
+  margin-left: 28%;
+  margin-right: 19%;
+}
+
+
+.copyright {
+  width: 100%;
+  text-align: center;
+}
+
+/* form task html */
+
+.book-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+
+form {
+  width: 40%;
+}
+
+.header-form {
+  background-color: #0EC0C3;
+  color: white;
+  padding: 1% 0;
+  text-align: center;
+}
+
+.content-form {
+  background-color: #E7E3E4;
+  padding: 1%;
+}
+
+.item-form {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.item-form label {
+  width: 160px;
+}
+
+.item-form input {
+  width: 200px;
+  padding: 10px 0;
+}
+
+.item-form select {
+  width: 200px;
+  padding: 8px 0;
+}
+
+#price {
+  flex: 1;
+  display: flex;
+  justify-content: end;
+  color: #F79646;
+}
+
+.submit {
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+
+.submit button {
+  background-color: #F79646;
+  padding: 2% 7%;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+
+.display {
+  background-color: green;
+  color: white;
+  padding: 1.5%;
+  text-align: center;
+}

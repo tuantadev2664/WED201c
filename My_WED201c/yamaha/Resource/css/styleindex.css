@@ -1,0 +1,128 @@
+/* header */
+
+.header {
+  display: flex;
+  align-items: flex-end;
+  margin: 1% 0;
+}
+
+.text-header {
+  width: 33.3%;
+  text-align: center;
+  color: red;
+}
+
+.logo {
+  width: 33.3%;
+  text-align: center;
+}
+
+.logo img {
+  width: 25%;
+}
+
+.search-box {
+  width: 33.3%;
+  text-align: center;
+  padding-right: 2%;
+}
+
+/* navigation */
+
+.menu {
+  margin: 0 -15px;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+/* section 1 */
+
+#blue-color {
+  color: #0EC0C3;
+  text-align: center;
+  margin-top: 3%;
+  margin-bottom: 2%;
+}
+
+.description p {
+  font-size: 27.5px;
+  text-align: justify;
+}
+
+/* section 2 */
+
+.img-left {
+  text-align: center;
+}
+
+.img-left img {
+  width: 60%;
+}
+
+.img-right img {
+  width: 100%;
+}
+
+/* section 3  */
+
+#orange-color {
+  color: orange;
+}
+
+.text-bestseller p {
+
+  text-align: justify;
+  font-size: 18px;
+}
+
+.img-bestseller img {
+  width: 80%;
+}
+
+
+/* them neu can */
+.order label {
+  display: block;
+  width: 100%;
+}
+
+.form {
+  margin: 3% 0;
+}
+
+/* footer */
+
+.footer {
+  background-color: #0EC0C3;
+  color: white;
+  text-align: center;
+  padding: 1%;
+}
+
+@media screen and (max-width: 768px) {
+
+  .header {
+    display: block;
+    width: 100%;
+  }
+
+  .text-header {
+    width: 100%;
+  }
+
+  .logo {
+    width: 100%;
+  }
+
+  .search-box {
+    width: 100%;
+  }
+
+  img {
+    width: 100%;
+  }
+}

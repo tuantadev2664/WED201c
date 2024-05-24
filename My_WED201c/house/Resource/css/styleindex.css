@@ -1,0 +1,115 @@
+/* header */
+
+.header {
+  text-align: center;
+}
+
+/* menu */
+
+.menu {
+  margin: 0 -15px;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+/* section 1 */
+
+#blue-color {
+  margin-top: 3%;
+  margin-bottom: 2%;
+  text-align: center;
+  color: #0EC0C3;
+}
+
+.land-left img {
+  width: 100%;
+  height: 400px;
+}
+
+.land-right {
+  font-size: 24px;
+  text-align: justify;
+}
+
+/* section 2 */
+.images-left img {
+  width: 100%;
+  height: 525px;
+}
+
+.text-insight {
+  position: absolute;
+  top: -10px;
+  left: 30px;
+  color: white;
+}
+
+.images-right img {
+  width: 100%;
+  height: 250px;
+}
+
+.Dong-Nai img {
+  margin-bottom: 25px;
+}
+
+/* section 3 */
+
+.houses img {
+  width: 100%;
+}
+
+.images-house {
+  width: 25%;
+}
+
+.text-house {
+  width: 25%;
+}
+
+#orange-color {
+  color: orange;
+  text-align: center;
+}
+
+/* footer */
+
+.footer {
+
+  background-color: #0EC0C3;
+  color: white;
+  text-align: center;
+  padding: 1%;
+  margin: 0 -1%;
+  margin-top: 3%;
+}
+
+@media screen and (max-width: 768px) {
+
+  .land-right {
+    margin-top: 2%;
+  }
+
+  .images-left {
+    margin-bottom: 5%;
+    width: 100%;
+  }
+
+  .images-right img {
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 25px;
+  }
+
+  .text-insight {
+    margin-left: 5%;
+  }
+
+  .houses div {
+    width: 100%;
+  }
+}

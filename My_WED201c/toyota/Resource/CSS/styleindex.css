@@ -1,0 +1,215 @@
+body {
+  width: 100%;
+  margin: 1%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 0px 5px 1px black;
+  margin-bottom: 1%;
+  margin-right: 2%;
+}
+
+.logo img {
+  width: 40%;
+}
+
+.logo {
+  text-align: center;
+}
+
+.banner {
+  float: left;
+  width: 50%;
+}
+
+.banner img {
+  width: 100%;
+  height: 600px;
+}
+
+.form-register {
+  float: right;
+  width: 50%;
+}
+
+.content-form {
+  margin-left: 5%;
+}
+
+.form-group {
+  margin-left: 5%
+}
+
+.content-form h1,
+label {
+  color: orange;
+  width: 100%;
+}
+
+.content-form>h1 {
+  text-align: center;
+}
+
+.inform {
+  margin: 5% 0;
+  box-sizing: border-box;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  height: 30px;
+}
+
+.inform>label {
+  width: 150px;
+  height: 100%;
+  font-size: 20px;
+}
+
+.inform>input,
+textarea,
+select {
+  width: 400px;
+  height: 100%;
+}
+
+#infor4 {
+  height: 150px;
+}
+
+#infor4>label {
+  padding-top: 175px;
+  height: 50px;
+}
+
+.button {
+  text-align: center;
+  margin-right: 20%;
+}
+
+.button>input {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 3% 9%;
+  border-radius: 3px;
+  margin: 0 1%;
+}
+
+#bt1 {
+  padding: 3% 10%;
+}
+
+#red-color {
+  text-align: center;
+  color: red;
+  margin: 3% 0;
+}
+
+.content-bestseller {
+  width: 100%;
+}
+
+.content-left {
+  width: 50%;
+  float: left;
+  text-align: center;
+  height: 480px;
+}
+
+.content-left>img {
+  width: 95%;
+  height: 100%;
+}
+
+.content-right {
+  width: 50%;
+  float: right;
+  height: 100%;
+}
+
+.content-right * {
+  padding-left: 50px;
+  padding-right: 10px;
+  /* margin: 3% 0; */
+}
+
+hr {
+  margin-top: 0;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.content-right>h2 {
+  color: rgb(15, 230, 230);
+  margin-top: 0;
+}
+
+.content-right>p {
+  font-size: 19px;
+  line-height: 1.5;
+}
+
+.content-Accessories {
+  margin: 0 2%;
+  width: 100%;
+}
+
+.left {
+  width: 50%;
+  float: left;
+}
+
+.left img {
+  width: 40%;
+  float: left;
+  height: 250px;
+}
+
+.sub-left {
+  float: right;
+  width: 50%;
+  text-align: justify;
+}
+
+.sub-left>h3,
+p {
+  margin-right: 50px;
+}
+
+.right {
+  width: 50%;
+  float: right;
+}
+
+.right img {
+  width: 40%;
+  float: left;
+  height: 250px;
+}
+
+.sub-right {
+  float: right;
+  width: 50%;
+  text-align: justify;
+}
+
+.sub-right>h3,
+p {
+  margin-right: 50px;
+}
+
+h3 {
+  margin-top: 0px;
+}
+
+#organe-color {
+  color: orange;
+}
+
+.footer {
+  background-color: skyblue;
+  color: white;
+  text-align: center;
+}

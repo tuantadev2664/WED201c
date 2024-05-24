@@ -1,0 +1,157 @@
+body {
+  width: 100%;
+}
+
+/* header */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.text-header {
+  width: 33.3%;
+  text-align: center;
+  font-style: italic;
+}
+
+#red-color {
+  color: red;
+}
+
+.logo {
+  width: 33.3%;
+  text-align: center;
+}
+
+.logo>img {
+  height: 100px;
+  width: 150px;
+}
+
+.search-box {
+  width: 33.3%;
+  padding-right: 3%;
+}
+
+/*navigation*/
+
+#navigation {
+  justify-content: center;
+  display: flex;
+  width: 100%;
+}
+
+/* section 1 */
+
+#blue-color {
+  color: rgb(31, 211, 217);
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+
+#left>img {
+  width: 100%;
+}
+
+#sub-right img {
+  width: 60%;
+  margin: 5% 0;
+}
+
+/* section 2 */
+
+.left img {
+  width: 100%;
+}
+
+.bestseller img {
+  height: 270px;
+}
+
+.left {
+  margin: 5% 0;
+}
+
+.mid {
+  padding-left: 7%;
+  margin: 5% 0;
+}
+
+.right {
+  padding-left: 5%;
+  margin: 5% 0;
+}
+
+#orange-color {
+  color: orange;
+}
+
+/* section 3 */
+
+.Store-information img {
+  width: 100%;
+  height: 475px;
+  padding: 30px;
+}
+
+.form {
+  margin-top: 4%;
+}
+
+/*footer*/
+
+.lefooter {
+  background-color: #0EC0C3;
+  color: white;
+  text-align: center;
+  padding: 1%;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    display: block;
+  }
+
+  .text-header {
+    width: 100%;
+  }
+
+  .logo {
+    width: 100%;
+  }
+
+  .search-box {
+    width: 100%;
+  }
+
+  #sub-right img {
+    width: 100%;
+  }
+
+  .search {
+    margin: 0 auto;
+    /*Thanh input ở giữa*/
+  }
+
+  .logo>img {
+    margin-bottom: 10px;
+  }
+
+  .item p,
+  h3 {
+    text-align: center;
+  }
+
+  .item img {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .Store-information img {
+    height: auto;
+  }
+
+}

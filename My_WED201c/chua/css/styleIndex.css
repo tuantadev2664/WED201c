@@ -1,0 +1,157 @@
+body {
+  margin: 0px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header>div {
+  margin: 0px 15px;
+}
+
+.logo>a>img {
+  width: 50%;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation>li {
+  list-style: none;
+  margin: 0 10px;
+}
+
+.navigation>li>a {
+  color: #08a2c7;
+  text-decoration: none;
+}
+
+.buttonSearch {
+  background-color: black;
+  color: #fff;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+}
+
+.banner>img {
+  width: 45%;
+}
+
+.content>h1 {
+  text-align: center;
+  color: #77b2b3;
+}
+
+.content>P {
+  display: flex;
+  justify-content: center;
+  color: rgb(226, 115, 74);
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #08a2c7;
+  justify-content: center;
+  color: #fff;
+}
+
+.footer .contact {
+  margin-right: 60px;
+}
+
+.copyright {
+  width: 100%;
+  text-align: center;
+}
+
+.bookingFunction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 5% 0%;
+}
+
+.formInput {
+  width: 30%;
+  height: 600px;
+  padding: 1%;
+  border: 2px solid #08a2c7;
+}
+
+.chooseTour {
+  background-color: #11b4aa;
+  padding: 1.5%;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+.formInputContent {
+  background-color: #e7e3e4;
+  padding: 1%;
+}
+
+.inputGroup {
+  width: 100%;
+  margin: 4% 0;
+  display: flex;
+  height: 30px;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.price {
+  margin-left: 5%;
+}
+
+h4 {
+  color: #ee821e;
+}
+
+.inputGroup>label {
+  width: 130px;
+  height: 100%;
+}
+
+.inputGroup>input {
+  width: 200px;
+  height: 100%;
+}
+
+.inputGroup>select {
+  width: 200px;
+  height: 100%;
+}
+
+.buttonBookTour {
+  display: flex;
+  justify-content: center;
+  margin: 3% 0;
+  width: 100%;
+}
+
+.buttonBook {
+  color: #fff;
+  padding: 3% 10%;
+  background-color: #ee821e;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.totalDisplay {
+  background-color: green;
+  color: #fff;
+  text-align: center;
+  padding: 1% 0;
+}

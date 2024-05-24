@@ -1,0 +1,147 @@
+body {
+  margin: 0 1%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-left: 50px;
+  margin-right: 10px;
+}
+
+.logo>img {
+  width: 50%;
+}
+
+
+.search {
+  width: 30%;
+  margin-left: 15%;
+}
+
+.feedback {
+  margin-right: 5%;
+}
+
+.menu {
+  margin: 10px 0;
+}
+
+#navigationbar {
+  justify-content: center;
+  display: flex;
+  width: 100%;
+}
+
+h1 {
+  margin: 2.5% 0;
+  color: rgb(31, 211, 217);
+  text-align: center;
+  width: 100%;
+}
+
+.description-content {
+  font-size: 27px;
+}
+
+.description {
+  margin: 0 20px;
+}
+
+#images {
+  margin: 5% 10%;
+}
+
+#left {
+  /* margin-right: 1%; */
+}
+
+#right {
+  padding-left: 80px;
+}
+
+.images-bottom>img {
+  width: 90%;
+}
+
+.content-bestseller {
+  margin: 5% 10%;
+}
+
+#content-left>img {
+  width: 80%;
+  height: 500px;
+}
+
+
+.orange-color {
+  color: orange;
+}
+
+
+#content-right>p {
+  font-size: 20px;
+  text-align: justify;
+}
+
+#Accessories {
+  margin: 0 10%;
+}
+
+#imgAccessories {
+  width: 80%;
+}
+
+#rightAccessories {}
+
+#leftAccessories {
+  text-align: center;
+}
+
+#rightAccessories>p {
+  font-size: 18px;
+  text-align: justify;
+}
+
+#text1 {
+  text-align: center;
+}
+
+.redlight-color {
+  color: rgb(255, 21, 0);
+}
+
+/* #sub-right {
+  padding-left: 30px;
+} */
+
+.footer {
+  background-color: rgb(31, 211, 217);
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  height: 125px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    display: block;
+    text-align: center;
+  }
+
+  .search {
+    margin: 0 auto;
+    /*Thanh input ở giữa*/
+  }
+
+  .logo>img {
+    margin-bottom: 10px;
+  }
+
+}

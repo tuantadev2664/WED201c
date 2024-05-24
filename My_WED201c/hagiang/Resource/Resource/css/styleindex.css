@@ -1,0 +1,192 @@
+/* header */
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.text-header {
+  width: 33.3%;
+  text-align: center;
+  color: #0EC0C3;
+}
+
+.logo {
+  width: 33.3%;
+  text-align: center;
+}
+
+.search-box {
+  width: 33.3%;
+  text-align: center;
+  padding-right: 2%;
+}
+
+/* navigation */
+.menu {
+  margin: 0 -15px;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+/* section  1 */
+
+.experience {
+  margin-top: 2%;
+}
+
+#blue-color {
+  color: #0EC0C3;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 3%;
+}
+
+.img-experience img {
+  width: 100%;
+  height: 415px;
+}
+
+.text-experience p {
+  font-size: 20.65px;
+  text-align: justify;
+}
+
+form {
+  margin-top: 20px;
+}
+
+.form {
+  padding-left: 2%;
+  padding-right: 4%;
+}
+
+
+.form label {
+  font-size: 20px;
+}
+
+.form button {
+  background-color: orange;
+  color: white;
+  padding: 3% 5%;
+  font-size: 24px;
+}
+
+/* section2 */
+
+#blue-color-main {
+  color: #0EC0C3;
+  text-align: center;
+  margin-top: 3%;
+  margin-bottom: 1%;
+}
+
+.landmarks img {
+  width: 100%;
+  height: 300px;
+}
+
+/* section 3 */
+
+.quan-ba {
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+
+.quan-ba img {
+  width: 100%;
+  height: 290px;
+}
+
+#green-color {
+  color: green;
+}
+
+.mid p {
+  font-size: 21px;
+  text-align: justify;
+}
+
+.right {
+  text-align: center;
+  margin-top: 3%;
+}
+
+#orange-color {
+  color: orange;
+}
+
+#book {
+  background-color: rgb(55, 157, 221);
+  color: white;
+  width: 50%;
+  margin: auto;
+  padding: 5% 0;
+}
+
+
+/* footer */
+
+.footer {
+  background-color: #0EC0C3;
+  color: white;
+  text-align: center;
+  padding: 1%;
+  margin: 0 -15px;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    display: block;
+  }
+
+  .text-header {
+    width: 100%;
+  }
+
+  .logo {
+    width: 100%;
+  }
+
+  .search-box {
+    width: 100%;
+  }
+
+  .img-experience img {
+    width: 100%;
+    height: 100%;
+  }
+
+  #blue-color {
+    margin-top: 4%;
+    margin-bottom: 5%;
+  }
+
+  #blue-color-main {
+    margin-top: 10%;
+    margin-bottom: 5%;
+  }
+
+  .landmarks img {
+    margin-bottom: 5%;
+  }
+
+  .left {
+    margin-top: 5%;
+  }
+
+  .right {
+    margin-top: 15%;
+    margin-bottom: 5%;
+  }
+
+  #book {
+    width: 80%;
+    padding: 2% 0;
+  }
+}

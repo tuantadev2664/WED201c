@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+/* header */
+
+.container {
+  width: 100%;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.text-header-left {
+  width: 40%;
+  color: #0F7E13;
+  font-family: "Ephesis";
+  font-size: 40px;
+}
+
+.logo {
+  width: 20%;
+}
+
+.logo img {
+  width: 45%;
+  border-radius: 50%;
+  border: solid gray;
+}
+
+.text-header-right {
+  width: 40%;
+  color: #0F7E13;
+  font-family: "Ephesis";
+  font-size: 45px;
+}
+
+/* menu */
+
+.menu {
+  background-color: #0F7E13;
+  padding: 10px;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding-right: 8%;
+}
+
+.menu li {
+  margin: 0 2.75%;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+/* banner */
+
+.banner {
+  display: flex;
+  margin-bottom: 1.5%;
+}
+
+.banner img {
+  width: 50%;
+
+}
+
+/* product */
+
+.product {
+  float: left;
+  width: 33.3%;
+}
+
+.product img {
+  height: 500px;
+}
+
+.content {
+  float: right;
+  width: 65%;
+  margin-left: 20px;
+}
+
+.content h2,
+p {
+  margin-bottom: 10px;
+
+}
+
+.content p {
+  font-size: 21.5px;
+}
+
+#pink-color {
+  color: rgb(225, 36, 193);
+}
+
+.content ul {
+  margin-left: 30px;
+  margin-top: 1.5%;
+  font-style: italic;
+  color: #0EC0C3;
+  font-size: 26px;
+
+}
+
+.content li {
+  margin-bottom: 10px;
+}
+
+::marker {
+  color: gray;
+}
+
+.footer {
+  background-color: #0F7E13;
+  color: white;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 1%;
+}
+
+.order {
+  display: flex;
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+
+.header-form {
+  background-color: #0F7E13;
+  color: white;
+  padding: 0 2%;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+#content-form {
+  background-color: rgb(235, 233, 233);
+  padding-bottom: 2%;
+  padding: 1%;
+}
+
+.form-input {
+  width: 27%;
+  margin-left: 15%;
+  margin-right: 5%;
+}
+
+.form-output {
+  width: 27%;
+}
+
+.item {
+  display: flex;
+  margin-left: 25px;
+  font-size: 20px;
+  margin-bottom: 4%;
+}
+
+.name {
+  width: 100%;
+}
+
+#price {
+  color: #F79646;
+  font-size: 24px;
+}
+
+.button-order {
+  background-color: #F79646;
+  color: white;
+  border-radius: 6px;
+  padding: 1.5% 10%;
+  border: none;
+  font-size: 18px;
+  margin-left: 50%;
+  margin-top: 5%;
+}
+
+.list-choice {
+  font-size: 20px;
+  padding: 0 2%;
+  padding-bottom: 6%;
+}
+
+.footer-form {
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  padding: 5% 0;
+}
